@@ -9,10 +9,10 @@ const GameGrid = () => {
     <>
       {error && <Text>{error}</Text>}
       <SimpleGrid
-        columns={{ sm: 1, md: 2, lg: 3, xl: 4 }}
-        spacing={5}
+        columns={{ base: 1, md: 2, lg: 3, xl: 4 }}
+        spacing={10}
         paddingRight={"10.5px"}
-        paddingLeft={'2px'}>
+        paddingLeft={"2px"}>
         {games.map((game) => (
           <GameCard game={game} />
         ))}

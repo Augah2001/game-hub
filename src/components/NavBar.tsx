@@ -8,8 +8,10 @@ const NavBar = () => {
     <HStack justifyContent={'space-between'} paddingRight={'10px'}>
         <Image src= {logo} boxSize={'5%'} />
         <ColorModeSwitch />
-    </HStack>
+    </HStack>  
   )
+
+  
 }
 
 export default NavBar
